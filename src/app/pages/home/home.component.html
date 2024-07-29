@@ -1,0 +1,104 @@
+<div class="container-header">
+    <app-menu-bar></app-menu-bar>
+</div>
+
+<app-menu-title></app-menu-title>
+
+<div class="container-articles-main">
+    <div class="articles-main content">
+        <a [routerLink]="['/content', 1]">
+            <app-big-card
+                caminhoImagem="./assets/images/principal/deadpool-wolverine.png"
+                titulo="LANÇAMENTO"
+                descricao="Com estreia em 25 de Julho, uma data mais que especial, Marvel Studios garante que Deadpool & Wolverine tem tudo que os fâs querem.">
+            </app-big-card>
+        </a>
+    </div>
+    <div class="articles-others">
+        <div class="content">
+            <a [routerLink]="['/content', 2]">
+                <app-small-card
+                    caminhoImagem="./assets/images/principal/capitao-america.png"
+                    titulo="TRAILER OFICIAL"
+                    descricao="Trailer Oficial de Capitão América: Admirável Mundo Novo">
+                </app-small-card>
+            </a>
+        </div>
+
+        <div class="content">
+            <a [routerLink]="['/content', 3]">
+                <app-small-card
+                    class="teste"
+                    caminhoImagem="./assets/images/principal/vingadores-ultimato.png"
+                    titulo="ENTENDA"
+                    descricao="Vingadores Ultimato: Entenda a cronologia dos filmes">
+                </app-small-card>
+            </a>
+        </div>
+
+        <div class="content">
+            <a [routerLink]="['/content', 4]">
+                <app-small-card
+                    caminhoImagem="./assets/images/principal/wakanda-forever.png"
+                    titulo="SAIBA MAIS"
+                    descricao="Wakanda Forever é mais que homenagem a Boseman, é um culto à família">
+                </app-small-card>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-sections">
+    <app-subtitle
+        [primeiroSubtitulo]="'CURIOSIDADES'"
+        [segundoSubtitulo]="'SÉRIES'">
+    </app-subtitle>
+
+    <div class="sections">
+        <div class="section-curiosities">
+            <div class="content">
+                <a [routerLink]="['/content', 5]">
+                    <app-small-card
+                        caminhoImagem="./assets/images/curiosidades/cachorro-deadpool.png"
+                        titulo="DESCUBRA"
+                        descricao="Deadpool & Wolverine tem cenas pós-créditos?">
+                    </app-small-card>
+                </a>
+            </div>
+
+            <div class="content">
+                <a [routerLink]="['/content', 6]">
+                    <app-small-card
+                        caminhoImagem="./assets/images/curiosidades/homem-de-ferro.png"
+                        titulo="SAIBA MAIS"
+                        descricao="5 curiosidades do filme Homem de Ferro">
+                    </app-small-card>
+                </a>
+            </div>
+        </div>
+
+        <div class="section-series">
+            <div class="content">
+                <a [routerLink]="['/content', 7]">
+                    <app-small-card
+                        caminhoImagem="./assets/images/series/heroi-nova.png"
+                        titulo="CONFIRA"
+                        descricao="Nova: Marvel finalmente revela quando a série do herói irá estrear no Disney+">
+                    </app-small-card>
+                </a>
+            </div>
+
+            <div class="content">
+                <a [routerLink]="['/content', 8]">
+                    <app-small-card
+                        caminhoImagem="./assets/images/series/homem-aranha-noir.png"
+                        titulo="NOVIDADE"
+                        descricao="Homem-Aranha Noir: Atriz Li Jun Li é confirmada na nova série">
+                    </app-small-card>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

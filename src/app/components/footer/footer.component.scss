@@ -1,0 +1,44 @@
+@import "variaveis.scss";
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+    width: 100%;
+    background-color: $cor-cinza-claro;
+
+    .image-footer {
+        background-color: $cor-cinza-claro;
+        margin: 40px 40px 40px 202px;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            background-color: $cor-cinza-claro;
+
+            img {
+                max-width: 85px;
+            }
+        }
+    }
+
+    .description-footer {
+        height: 100%;
+        width: 400px;
+        background-color: $cor-cinza-claro;
+
+        p {
+            background-color: $cor-cinza-claro;
+            margin-top: 60px;
+        }
+    }
+}
+
+.container-author {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}

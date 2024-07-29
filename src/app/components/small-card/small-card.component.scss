@@ -1,0 +1,50 @@
+@import "variaveis.scss";
+
+.container-small-card {
+    display: flex;
+    flex-direction: row;
+    height: 154px;
+    width: 620px;
+    background-color: $cor-cinza-claro;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+    .container-image {
+        height: 150px;
+        background-color: $cor-cinza-claro;
+
+        img {
+            width: 265px;
+            min-width: 265px;
+        }
+    }
+
+    .container-description {
+        background-color: $cor-cinza-claro;
+        width: 500px;
+
+        .title {
+            margin: 34px 20px 20px 20px;
+            background-color: $cor-vermelho;
+            display: inline-flex;
+
+            h1 {
+                background-color: $cor-vermelho;
+                font-size: 16px;
+                padding: 3px;
+            }
+        }
+
+        .description {
+            height: 65px;
+            width: 100%;
+            padding: 0 20px;
+            background-color: $cor-cinza-claro;
+
+            p {
+                background-color: $cor-cinza-claro;
+            }
+        }
+    }
+}

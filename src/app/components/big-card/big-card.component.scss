@@ -1,0 +1,44 @@
+@import "variaveis.scss";
+
+.container {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: $cor-cinza-claro;
+    border: 2px solid $cor-branco;
+    border-radius: 5px;
+    margin-right: 10px;
+
+    .image {
+        width: 100%;
+        background-color: $cor-cinza-claro;
+
+        img {
+            height: 360px;
+            width: 100%;
+        }
+    }
+
+    .title {
+        background-color: $cor-vermelho;
+        padding: 5px;
+        margin: 25px 15px 15px 20px;
+
+        h1 {
+            font-size: 20px;
+            background-color: $cor-vermelho;
+        }
+    }
+
+    .description {
+        width: 100%;
+        background-color: $cor-cinza-claro;
+        padding: 0 20px 23px 20px;
+
+        p {
+            background-color: $cor-cinza-claro;
+        }
+    }
+}

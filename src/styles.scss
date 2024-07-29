@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variaveis";
+@import "primeicons/primeicons.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    // Define que o tamanho da caixa irá contabilizar de borda a borda
+    box-sizing: border-box;
+    background-color: $cor-fundo;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}

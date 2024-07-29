@@ -1,0 +1,30 @@
+@import "variaveis.scss";
+
+.container-button {
+
+    button {
+        display: flex;
+        align-items: center;
+        min-width: 95px;
+        background-color: $cor-vermelho;
+        padding: 7px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+
+        i {
+            font-size: 19px;
+            background-color: $cor-vermelho;
+            margin-right: 10px;
+        }
+
+        span {
+            font-size: 16px;
+            background-color: $cor-vermelho;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.03);
+    }
+}

@@ -1,0 +1,31 @@
+@import "variaveis.scss";
+
+.title-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 45px 0 45px 200px;
+
+    h1 {
+        font-size: 21px;
+        padding: 0 20px;
+    }
+
+    .separator-primary {
+        background-color: $cor-branco;
+        height: 2px;
+        width: 120px;
+    }
+
+    .separator-secundary {
+        background-color: $cor-branco;
+        height: 2px;
+        width: 690px;
+    }
+
+    .separator-third {
+        background-color: $cor-branco;
+        height: 2px;
+        width: 158px;
+    }
+}

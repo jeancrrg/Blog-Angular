@@ -1,0 +1,20 @@
+<div class="container-header">
+    <div class="container-button">
+        <app-button nomeIcone="pi-arrow-circle-left" descricao="Voltar" (click)="voltarPagina()"></app-button>
+    </div>
+    <div class="container-menu-bar">
+        <app-menu-bar></app-menu-bar>
+    </div>
+</div>
+
+<app-menu-title></app-menu-title>
+
+<div class="container-content">
+    <app-big-card
+        [caminhoImagem]="urlImagem"
+        [titulo]="titulo"
+        [descricao]="descricao">
+    </app-big-card>
+</div>
+
+<app-footer></app-footer>
